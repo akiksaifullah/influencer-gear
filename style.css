@@ -1,0 +1,24 @@
+/* headr part formatting */
+.main{
+    display: flex;
+}
+.text a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding:10px, 24px, 10px, 24px;
+    border-radius: 41px;
+    font-size: 16px;
+    height:24px;
+    width:196px;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.add{
+    display:flex;
+}
+footer{
+    text-align: center;
+}
